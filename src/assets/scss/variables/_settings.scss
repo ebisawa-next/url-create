@@ -1,0 +1,14 @@
+html {
+    font-size: 62.5%; /*ベースを10px*/
+}
+body {
+    font-size: 1.0rem; /* 10px */
+    color: $black;
+}
+a {
+    color: $blue;
+    &:link { color: $blue }
+    &:hover { color: $orange }
+    &:visited { color: $orange}
+    &:active { color: $orange }
+}
